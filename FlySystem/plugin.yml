@@ -1,0 +1,15 @@
+name: FlySystem
+main: lbwb\fly\Main
+version: 1.0.0
+api: 4.0.0
+author: LBWB
+
+commands:
+  fly:
+    description: Set your Flightmode
+    permission: fly.cmd
+
+permissions:
+  fly.cmd:
+    description: Set your Flightmode
+    default: true
